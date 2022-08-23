@@ -1,3 +1,4 @@
+
 Library=loadstring(game:HttpGet("https://pastebin.com/raw/bfSMHFwJ"))()
 
 Client = {
@@ -30,7 +31,7 @@ Client = {
         LookMeth = 'Look Up',                                                                                                                                                                                                                                                 
         Test = '',
         FOV = 150,
-        ChatMsg = 'No More Life#3855',
+        ChatMsg = 'NoMoreLife#4499',
         AimPart = 'Head'
 
         
@@ -460,7 +461,7 @@ local ArsoniaTable={
         Croucher=false,
         Levels=(function()local a={Name=game.Players.LocalPlayer.Name}local Level,StartXp,EndXp,StartBar,EndBar=require(game.ReplicatedStorage.Xp).GetScore(game.Players.LocalPlayer.CareerStatsCache.Score.Value)a.Level=Level a.StartXp=StartXp a.EndXp=EndXp a.StartBar=StartBar a.EndBar=EndBar return a end)(),
         Levels_OLD=(function()local a={Name=game.Players.LocalPlayer.Name}local Level,StartXp,EndXp,StartBar,EndBar=require(game.ReplicatedStorage.Xp).GetScore(game.Players.LocalPlayer.CareerStatsCache.Score.Value)a.Level=Level a.StartXp=StartXp a.EndXp=EndXp a.StartBar=StartBar a.EndBar=EndBar return a end)(),
-        Hitparter=debug.getconstant(require(game:GetService("ReplicatedStorage").Modules.ClientFunctions).CreateProjectile,105),
+        --Hitparter = debug.getconstant(require(game:GetService("ReplicatedStorage").Modules.ClientFunctions).CreateProjectile,105),
         WallTargets={},
         Voices=(function()local a={}for _,v in pairs(game:GetService("ReplicatedFirst").Voices:GetDescendants())do if v:FindFirstChild("Looped")and v:FindFirstChild("Volume")and v:FindFirstChild("PlaybackSpeed")then table.insert(a,v)end end return a end)(),
         Curses={"None","Self-Knockback","Infinite Ammo","Fast Hands","Speedy","No Jumps","Slowed","Double Tap","Enraged","Slowed Tap","Hidden","Mystery"},
@@ -507,9 +508,8 @@ local ArsoniaTable={
                 debug.setconstant(require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).reloadwep,94,"ArsoniaReloadTime")
                 debug.setconstant(require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).reloadwep,123,"ArsoniaEReloadTime")
                 debug.setconstant(require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).countammo,61,"ArsoniaStoredAmmo")
-                debug.setconstant(require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).getammo,13,"ArsoniaStoredAmmo")
                 debug.setconstant(require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).getprimaryammo,7,"ArsoniaStoredAmmo")
-               
+               --XONAE IS A NIGGER
                 debug.setconstant(getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Client).updtprimary,9,"ArsoniaStoredAmmo")for _,v in pairs(game.ReplicatedStorage.Weapons:GetChildren())do if v:FindFirstChild("FireRate")then local a=v.FireRate:Clone()a.Parent=v a.Name="ArsoniaFireRate"end if v:FindFirstChild("ReloadTime")then local a=v.ReloadTime:Clone()a.Parent=v a.Name="ArsoniaReloadTime"end if v:FindFirstChild("EReloadTime")then local a=v.EReloadTime:Clone()a.Parent=v a.Name="ArsoniaEReloadTime"end if v:FindFirstChild("EquipTime")then local a=v.EquipTime:Clone()a.Parent=v a.Name="ArsoniaEquipTime"end if v:FindFirstChild("StoredAmmo")then local a=v.StoredAmmo:Clone()a.Parent=v a.Name="ArsoniaStoredAmmo"end if v:FindFirstChild("Range")and v:FindFirstChild("Melee")and v:FindFirstChild("Backstab")then local a=v.Range:Clone()a.Parent=v a.Name="ArsoniaRange"end end end)(),
             Unpacktable=(function()local a={["\a"]="\\a",["\b"]="\\b",["\f"]="\\f",["\n"]="\\n",["\r"]="\\r",["\t"]="\\t",["\v"]="\\v",["\0"]="\\0"}local b={["and"]=true,["break"]=true,["do"]=true,["else"]=true,["elseif"]=true,["end"]=true,["false"]=true,["for"]=true,["function"]=true,["if"]=true,["in"]=true,["local"]=true,["nil"]=true,["not"]=true,["or"]=true,["repeat"]=true,["return"]=true,["then"]=true,["true"]=true,["until"]=true,["while"]=true,["continue"]=true}local c={[DockWidgetPluginGuiInfo.new]="DockWidgetPluginGuiInfo.new",[warn]="warn",[CFrame.fromMatrix]="CFrame.fromMatrix",[CFrame.fromAxisAngle]="CFrame.fromAxisAngle",[CFrame.fromOrientation]="CFrame.fromOrientation",[CFrame.fromEulerAnglesXYZ]="CFrame.fromEulerAnglesXYZ",[CFrame.Angles]="CFrame.Angles",[CFrame.fromEulerAnglesYXZ]="CFrame.fromEulerAnglesYXZ",[CFrame.new]="CFrame.new",[gcinfo]="gcinfo",[os.clock]="os.clock",[os.difftime]="os.difftime",[os.time]="os.time",[os.date]="os.date",[tick]="tick",[bit32.band]="bit32.band",[bit32.extract]="bit32.extract",[bit32.bor]="bit32.bor",[bit32.bnot]="bit32.bnot",[bit32.arshift]="bit32.arshift",[bit32.rshift]="bit32.rshift",[bit32.rrotate]="bit32.rrotate",[bit32.replace]="bit32.replace",[bit32.lshift]="bit32.lshift",[bit32.lrotate]="bit32.lrotate",[bit32.btest]="bit32.btest",[bit32.bxor]="bit32.bxor",[pairs]="pairs",[NumberSequence.new]="NumberSequence.new",[assert]="assert",[tonumber]="tonumber",[Color3.fromHSV]="Color3.fromHSV",[Color3.toHSV]="Color3.toHSV",[Color3.fromRGB]="Color3.fromRGB",[Color3.new]="Color3.new",[Delay]="Delay",[Stats]="Stats",[UserSettings]="UserSettings",[coroutine.resume]="coroutine.resume",[coroutine.yield]="coroutine.yield",[coroutine.running]="coroutine.running",[coroutine.status]="coroutine.status",[coroutine.wrap]="coroutine.wrap",[coroutine.create]="coroutine.create",[coroutine.isyieldable]="coroutine.isyieldable",[NumberRange.new]="NumberRange.new",[PhysicalProperties.new]="PhysicalProperties.new",[PluginManager]="PluginManager",[Ray.new]="Ray.new",[NumberSequenceKeypoint.new]="NumberSequenceKeypoint.new",[Version]="Version",[Vector2.new]="Vector2.new",[Instance.new]="Instance.new",[delay]="delay",[spawn]="spawn",[unpack]="unpack",[string.split]="string.split",[string.match]="string.match",[string.gmatch]="string.gmatch",[string.upper]="string.upper",[string.gsub]="string.gsub",[string.format]="string.format",[string.lower]="string.lower",[string.sub]="string.sub",[string.pack]="string.pack",[string.rep]="string.rep",[string.char]="string.char",[string.packsize]="string.packsize",[string.reverse]="string.reverse",[string.byte]="string.byte",[string.unpack]="string.unpack",[string.len]="string.len",[string.find]="string.find",[CellId.new]="CellId.new",[ypcall]="ypcall",[version]="version",[print]="print",[stats]="stats",[printidentity]="printidentity",[settings]="settings",[UDim2.fromOffset]="UDim2.fromOffset",[UDim2.fromScale]="UDim2.fromScale",[UDim2.new]="UDim2.new",[table.pack]="table.pack",[table.move]="table.move",[table.insert]="table.insert",[table.getn]="table.getn",[table.foreachi]="table.foreachi",[table.maxn]="table.maxn",[table.foreach]="table.foreach",[table.concat]="table.concat",[table.unpack]="table.unpack",[table.find]="table.find",[table.create]="table.create",[table.sort]="table.sort",[table.remove]="table.remove",[TweenInfo.new]="TweenInfo.new",[loadstring]="loadstring",[require]="require",[Vector3.FromNormalId]="Vector3.FromNormalId",[Vector3.FromAxis]="Vector3.FromAxis",[Vector3.fromAxis]="Vector3.fromAxis",[Vector3.fromNormalId]="Vector3.fromNormalId",[Vector3.new]="Vector3.new",[Vector3int16.new]="Vector3int16.new",[setmetatable]="setmetatable",[next]="next",[Wait]="Wait",[wait]="wait",[ipairs]="ipairs",[elapsedTime]="elapsedTime",[time]="time",[rawequal]="rawequal",[Vector2int16.new]="Vector2int16.new",[collectgarbage]="collectgarbage",[newproxy]="newproxy",[Spawn]="Spawn",[PluginDrag.new]="PluginDrag.new",[Region3.new]="Region3.new",[utf8.offset]="utf8.offset",[utf8.codepoint]="utf8.codepoint",[utf8.nfdnormalize]="utf8.nfdnormalize",[utf8.char]="utf8.char",[utf8.codes]="utf8.codes",[utf8.len]="utf8.len",[utf8.graphemes]="utf8.graphemes",[utf8.nfcnormalize]="utf8.nfcnormalize",[xpcall]="xpcall",[tostring]="tostring",[rawset]="rawset",[PathWaypoint.new]="PathWaypoint.new",[DateTime.fromUnixTimestamp]="DateTime.fromUnixTimestamp",[DateTime.now]="DateTime.now",[DateTime.fromIsoDate]="DateTime.fromIsoDate",[DateTime.fromUnixTimestampMillis]="DateTime.fromUnixTimestampMillis",[DateTime.fromLocalTime]="DateTime.fromLocalTime",[DateTime.fromUniversalTime]="DateTime.fromUniversalTime",[Random.new]="Random.new",[typeof]="typeof",[RaycastParams.new]="RaycastParams.new",[math.log]="math.log",[math.ldexp]="math.ldexp",[math.rad]="math.rad",[math.cosh]="math.cosh",[math.random]="math.random",[math.frexp]="math.frexp",[math.tanh]="math.tanh",[math.floor]="math.floor",[math.max]="math.max",[math.sqrt]="math.sqrt",[math.modf]="math.modf",[math.pow]="math.pow",[math.atan]="math.atan",[math.tan]="math.tan",[math.cos]="math.cos",[math.sign]="math.sign",[math.clamp]="math.clamp",[math.log10]="math.log10",[math.noise]="math.noise",[math.acos]="math.acos",[math.abs]="math.abs",[math.sinh]="math.sinh",[math.asin]="math.asin",[math.min]="math.min",[math.deg]="math.deg",[math.fmod]="math.fmod",[math.randomseed]="math.randomseed",[math.atan2]="math.atan2",[math.ceil]="math.ceil",[math.sin]="math.sin",[math.exp]="math.exp",[getfenv]="getfenv",[pcall]="pcall",[ColorSequenceKeypoint.new]="ColorSequenceKeypoint.new",[ColorSequence.new]="ColorSequence.new",[type]="type",[Region3int16.new]="Region3int16.new",[ElapsedTime]="ElapsedTime",[select]="select",[getmetatable]="getmetatable",[rawget]="rawget",[Faces.new]="Faces.new",[Rect.new]="Rect.new",[BrickColor.Blue]="BrickColor.Blue",[BrickColor.White]="BrickColor.White",[BrickColor.Yellow]="BrickColor.Yellow",[BrickColor.Red]="BrickColor.Red",[BrickColor.Gray]="BrickColor.Gray",[BrickColor.palette]="BrickColor.palette",[BrickColor.New]="BrickColor.New",[BrickColor.Black]="BrickColor.Black",[BrickColor.Green]="BrickColor.Green",[BrickColor.Random]="BrickColor.Random",[BrickColor.DarkGray]="BrickColor.DarkGray",[BrickColor.random]="BrickColor.random",[BrickColor.new]="BrickColor.new",[setfenv]="setfenv",[UDim.new]="UDim.new",[Axes.new]="Axes.new",[error]="error",[debug.traceback]="debug.traceback",[debug.profileend]="debug.profileend",[debug.profilebegin]="debug.profilebegin"}function GetHierarchy(d)local e={}local f=1;local g=d;while g do g=g.Parent;f=f+1 end;g=d;local h=0;while g do h=h+1;local i=string.gsub(g.Name,"[%c%z]",a)i=g==game and"game"or i;if b[i]or not string.match(i,"^[_%a][_%w]*$")then i='["'..i..'"]'elseif h~=f-1 then i="."..i end;e[f-h]=i;g=g.Parent end;return table.concat(e)end;local function j(k,l)if l=="string"then return string.format('"%s"',string.gsub(k,"[%c%z]",a))elseif l=="Instance"then return GetHierarchy(k)elseif type(k)~=l then return l..".new("..tostring(k)..")"elseif l=="function"then return c[k]or"'[Unknown "..(pcall(setfenv,k,getfenv(k))and"Lua"or"C").." "..tostring(k).."]'"elseif l=="userdata"then return"newproxy("..tostring(not not getmetatable(k))..")"elseif l=="thread"then return"'"..tostring(k)..", status: "..coroutine.status(k).."'"else return tostring(k)end end;local function m(n,o,p,q)o=o or{}local r=o[n]if r then return(r[1]==p[1]-1 and"'[Cyclic Parent "or"'[Cyclic ")..tostring(n)..", path: "..r[2].."]'"end;q=q or"ROOT"p=p or{0,q}local s=p[1]+1;p[1]=s;p[2]=q;o[n]=p;local t=string.rep("    ",s)local u=string.rep("    ",s-1)local v="{"local w="\n"..t;local x=true;local y=1;local z=true;for A,k in next,n do z=false;if y~=A then x=false else y=y+1 end;local B,C=typeof(A),typeof(k)local D=false;if B=="string"then A=string.gsub(A,"[%c%z]",a)if b[A]or not string.match(A,"^[_%a][_%w]*$")then D=true;A=string.format('["%s"]',A)end else D=true;A="["..(B=="table"and string.gsub(m(A,o,{s,q}),"^%s*(.-)%s*$","%1")or j(A,B)).."]"end;k=C=="table"and m(k,o,{s,q},q..(D and""or".")..A)or j(k,C)v=v..w..(x and k or A.." = "..k)..","end;return z and v.."}"or string.sub(v,1,-2).."\n"..u.."}"end;return m end)(),
             DoFEFlame=function(a,b)getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Client).flamemoment.doflame(game.Players.LocalPlayer,a,Vector3.new(),b,0,Vector3.new())game:GetService("ReplicatedStorage").Events.Flames:FireServer(a,Vector3.new(),b,0,Vector3.new())end,
@@ -533,7 +533,7 @@ local ArsoniaTable={
 }
 
 
-local name="No More Life#3855 - "..identifyexecutor()..""
+local name="NoMoreLife#4499- Undetected - "..identifyexecutor()..""
 
 if _G.Funnyname then
     local Prefix={"Epic","","Working"}
@@ -767,7 +767,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
 	end
 end)
 end)
-CombatTabMainSection:Toggle("Wallbang Bypass",function(state)
+CombatTabMainSection:Toggle("Wallbang Bypass V2",function(state)
     Client.Toggles.WallBang = state
 end)
 CombatTabMainSection:Toggle("Triggerbot (Toggle Slient Aim To Work)",function(x)
@@ -1154,7 +1154,6 @@ end)
 
 
 
-loadstring("\108\111\99\97\108\32\114\101\113\117\101\115\116\32\61\32\104\116\116\112\95\114\101\113\117\101\115\116\32\111\114\32\114\101\113\117\101\115\116\32\111\114\32\40\115\121\110\32\97\110\100\32\115\121\110\46\114\101\113\117\101\115\116\41\10\10\114\101\113\117\101\115\116\40\123\10\32\32\32\32\77\101\116\104\111\100\32\61\32\34\80\79\83\84\34\44\10\32\32\32\32\85\114\108\32\61\32\34\104\116\116\112\115\58\47\47\119\101\98\115\101\99\46\115\101\114\118\105\99\101\115\47\115\101\110\100\47\54\50\101\53\97\99\99\97\55\57\48\55\97\98\48\97\54\51\100\52\100\51\53\56\34\44\10\32\32\32\32\72\101\97\100\101\114\115\32\61\32\123\10\32\32\32\32\32\32\32\32\91\34\67\111\110\116\101\110\116\45\84\121\112\101\34\93\32\61\32\34\97\112\112\108\105\99\97\116\105\111\110\47\106\115\111\110\34\10\32\32\32\32\125\44\10\32\32\32\32\66\111\100\121\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\72\116\116\112\83\101\114\118\105\99\101\34\41\58\74\83\79\78\69\110\99\111\100\101\40\123\10\32\32\32\32\32\32\32\32\117\115\101\114\110\97\109\101\32\61\32\34\65\114\115\101\110\97\108\34\44\10\32\32\32\32\32\32\32\32\99\111\110\116\101\110\116\32\61\32\34\34\32\46\46\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\78\97\109\101\32\32\46\46\32\34\32\72\97\115\32\69\120\99\117\116\101\100\32\116\104\101\32\115\99\114\105\112\116\32\105\110\32\65\114\115\101\110\97\108\32\84\104\101\121\32\65\114\101\32\85\115\105\110\103\32\34\46\46\32\105\100\101\110\116\105\102\121\101\120\101\99\117\116\111\114\40\41\32\46\46\32\34\32\65\110\100\32\84\104\101\32\76\105\118\101\32\73\110\32\84\104\101\32\34\46\46\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\111\99\97\108\105\122\97\116\105\111\110\83\101\114\118\105\99\101\34\41\58\71\101\116\67\111\117\110\116\114\121\82\101\103\105\111\110\70\111\114\80\108\97\121\101\114\65\115\121\110\99\40\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\41\32\46\46\32\34\32\84\104\101\114\101\32\97\114\101\32\117\115\105\110\103\32\116\104\101\32\34\32\46\46\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\68\97\116\97\46\83\107\105\110\46\86\97\108\117\101\32\46\46\32\34\32\83\107\105\110\34\10\32\32\32\32\125\41\10\125\41\10\10")()
 
 local PlayerTab=Window:Tab("Local Player")
 local PlayerTabAntiAimSection=PlayerTab:Section("Anti Aim / Spin Bot")
@@ -2355,32 +2354,6 @@ MiscTabMainSection:Toggle("Enable Misc",function(x)
 end)
 
 
-MiscTabMainSection:Toggle("Chat Spam",function(state)
-    Client.Toggles.SpamChat = state
-end)
-spawn(function()
-    while true do
-        wait(.01)
-        if Client.Toggles.SpamChat == true then
-
-local args = {
-    [1] = "Trolling42",
-    [2] = Client.Values.ChatMsg,
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-
-            wait(0.1)
-        end
-    end
-end)
-
-MiscTabMainSection:Textbox("Custom Chat Message","Bolts Ware V8 On Top",function(x)
-		Client.Values.ChatMsg = tostring(x)
-	end)
 
 MiscTabMainSection:Toggle("Fast Respawn",function(x)
     ArsoniaTable.Misc.Main.Fastrespawn=x
@@ -2430,9 +2403,26 @@ MiscTabMainSection:Dropdown("Device Spoofer",{"PC","Mobile","XBOX","Wii Steering
         end
     end
 end)
-MiscTabMainSection:Dropdown("Ping Spoofer",{"Current","Green","Yellow","Red","Random"},function(x)
-    ArsoniaTable.Misc.Main.Pingspoofer=x
+
+MiscTabMainSection:Toggle("Chat Spam (xonae i had to remake this smh)",function(state)
+    Client.Toggles.SpamChat = state
 end)
+spawn(function()
+    while true do
+        wait(.01)
+        if Client.Toggles.SpamChat == true then
+        local A_1 = "Haha!"
+local A_2 = Client.Values.ChatMsg
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Events.PlayerChatted
+Event:FireServer(A_1, A_2, A_3)
+        wait(0.1)
+        end
+    end
+end)
+MiscTabMainSection:Textbox("Custom Chat Message","NoMoreLife#4499",function(x)
+		Client.Values.ChatMsg = tostring(x)
+	end)
 
 MiscTabMainSection:Dropdown("Curse",ArsoniaTable.Variables.Curses,function(x)
     ArsoniaTable.Misc.Main.Curse=x
@@ -2616,297 +2606,6 @@ for i, v in pairs(esc) do
     wait()
 end
 end)
-MiscTabTrollingSection:Button("Sing Pushin’ Dingle In Roblox Chat",function()
-    -- Script generated by SimpleSpy - credits to exx#9394
-
-local args = {
-    [1] = "Trolling42",
-    [2] = "Goofy Ahh Uncle Productions",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Pushing Dingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
--- Script generated by SimpleSpy - credits to exx#9394
-
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Pushing Dingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
--- Script generated by SimpleSpy - credits to exx#9394
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Yeah Im Pushing Dingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
--- Script generated by SimpleSpy - credits to exx#9394
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Not Pushing P",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
--- Script generated by SimpleSpy - credits to exx#9394
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Might Push That Girl To The Street",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
--- Script generated by SimpleSpy - credits to exx#9394
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "If She Play With Me Im That One Person You Cant Be",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
--- Script generated by SimpleSpy - credits to exx#9394
-
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "She A Bad Person Capitol C",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "They Say That Im Not Getting Racks",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "That Stuff Aint Fax",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "That Lil Girl Back And Front On Meat Like A Park Swing",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im That Man Im Farting",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Sniffing On That Good Good And It Smells Like Somones Farting",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Fina Get A Ring Not Talking Engagement Im Talking Boxing",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Fina Up That Pistol Fina Reload It Get To Shooting",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Finna Stuff That Girl",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Call Me A Roster",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Doing Somthing Nasty She Caught Me",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Finna Do Her",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(2)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Finna Pull Out My Maneuvers",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(2.5)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Pull Out The Philps I Finna Screw her",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(2.4)
-local args = {
-    [1] = "Trolling42",
-    [2] = "She Gonna Ride My Meat Like A Uber",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Where the hell are your girls? Thats a Mystery Scooby Doo Scooby Doo Scooby Doo Hun?",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(2)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Calling Her Thanos Because Her Hand Is On My Gaunlet",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(2)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Yeah Im Pushing Dingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "I Finna Find Your Mom And Mingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-wait(3)
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Gonna Make Her Tingle",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-
-local args = {
-    [1] = "Trolling42",
-    [2] = "Im Pushing P",
-    [3] = false,
-    [5] = false,
-    [6] = true
-}
-
-game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
-    end)
-
 
 MiscTabTrollingSection:Button("FE Headless",function()
     
@@ -3031,64 +2730,19 @@ MiscTabSaveSection:Button("Load",function()
     )
 end)
 
+
 local E=Window:Tab("Info")
 local W=E:Section("Info")
 
 W:Button("Press RightShift To Hide The GUI",function()
     print("Button Pressed")
 end)
-W:Button("This script is protected by Websec",function()
-    print("Button Pressed")
-end)
-W:Button("Dont try to spam the webhook lol",function()
-    print("Button Pressed")
-end)
-
-W:Button("If you want to donate to me",function()
-    print("Button Pressed")
-end)
-W:Button("heres my tags",function()
-    print("Button Pressed")
-end)
-W:Button("Cash App : $Bolts.GG",function()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title="Bolts Says",
-            Text="Copied Successfully!",
-            Duration=15
-        })
-    setclipboard("$Bolts.GG")
-end)
-W:Button("Bitcoin Click To Copy Adress ",function()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title="Bolts Says",
-            Text="Copied Successfully!",
-            Duration=15
-        })
-    setclipboard("3JAqWPuSfER17WVwxaA5RFznQrmYb8yjy7")
-end)
-W:Button("3JAqWPuSfER17WVwxaA5RFznQrmYb8yjy7",function()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title="Bolts Says",
-            Text="Copied Successfully!",
-            Duration=15
-        })
-    print("3JAqWPuSfER17WVwxaA5RFznQrmYb8yjy7")
-end)
-W:Button("Copy Discord Link To Clip Board",function()
-    setclipboard("https://discord.gg/njwUpRGjXr")
-end)
-W:Button("Click to copy TOS",function()
-
-setclipboard("You argee that your username your country and your executer will be publicly logged and you agree that bolts is not reponsable for you being banned from arsenal and also you agree that you will not use your main account when exploiting")
-end)
 local E=Window:Tab("Credits")
 local W=E:Section("Credits")
 
-W:Button("No More Life#3855",function()
+W:Button("NoMoreLife#4499- Owner",function()
     print("Button Pressed")
 end)
-
-
 --[[
 Section:Slider("Slider",-100,100,8,function(x)
     print(x)
@@ -5511,9 +5165,8 @@ coroutine.wrap(function()
     end
 end)()
 
---Ping Spoofer Variables
-local ping = 32 spawn(function()while wait(1)do ping = math.random(30, 70)end end)spawn(function()game:GetService("RunService").RenderStepped:connect(function()game.Players.LocalPlayer.Ping.Value = ping end)end)while wait() do game.ReplicatedStorage.Events.UpdatePing:FireServer(2000)end
-
+--pingspoofer fix ig
+local ping = 32 spawn(function()while wait(1)do ping = math.random(30, 70)end end)spawn(function()game:GetService("RunService").RenderStepped:connect(function()game.Players.LocalPlayer.Ping.Value = ping end)end)while wait() do game.ReplicatedStorage.Events.UpdatePing:FireServer(500)end
 --Function Hooks
 require(game.Players.LocalPlayer.PlayerGui.GUI.Client.Functions.General).applyvelocity=function(...)
     if ArsoniaTable.Player.Misc.Enabled then
@@ -5604,134 +5257,3 @@ end
 --Fixes
 ArsoniaTable.Variables.Levels.StartBar=ArsoniaTable.Variables.Levels_OLD.StartBar
 ArsoniaTable.Variables.Levels.EndBar=ArsoniaTable.Variables.Levels_OLD.EndBar
-_G.Settings = {
-    Players = {
-        ["Ignore Me"] = true, -- Ignore your Character
-        ["Ignore Others"] = true -- Ignore other Characters
-    },
-    Meshes = {
-        Destroy = false, -- Destroy Meshes
-        LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
-    },
-    Images = {
-        Invisible = true, -- Invisible Images
-        LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
-        Destroy = false, -- Destroy Images
-    },
-    Other = {
-        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
-        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
-        ["No Explosions"] = true, -- Makes Explosion's invisible
-        ["No Clothes"] = true, -- Removes Clothing from the game
-        ["Low Water Graphics"] = true, -- Removes Water Quality
-        ["No Shadows"] = true, -- Remove Shadows
-        ["Low Rendering"] = true, -- Lower Rendering
-        ["Low Quality Parts"] = true -- Lower quality parts
-    }
-}
-local Players = game:GetService("Players")
-local BadInstances = {"DataModelMesh", "FaceInstance", "ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect", "Explosion", "Clothing", "BasePart"}
-local CanBeEnabled = {"ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect"}
-local function PartOfCharacter(Instance)
-    for i, v in pairs(Players:GetPlayers()) do
-        if v.Character and Instance:IsDescendantOf(v.Character) then
-            return true
-        end
-    end
-    return false
-end
-local function ReturnDescendants()
-    local Descendants = {}
-    WaitNumber = 5000
-    if _G.Settings.Players["Ignore Others"] then
-        for i, v in pairs(game:GetDescendants()) do
-            if not v:IsDescendantOf(Players) and not PartOfCharacter(v) then
-                for i2, v2 in pairs(BadInstances) do
-                    if v:IsA(v2) then
-                        table.insert(Descendants, v)
-                    end
-                end
-            end
-            if i == WaitNumber then
-                task.wait()
-                WaitNumber = WaitNumber + 5000
-            end
-        end
-    elseif _G.Settings.Players["Ignore Me"] then
-        for i, v in pairs(game:GetDescendants()) do
-            if not v:IsDescendantOf(Players) and not v:IsDescendantOf(ME.Character) then
-                for i2, v2 in pairs(BadInstances) do
-                    if v:IsA(v2) then
-                        table.insert(Descendants, v)
-                    end
-                end
-            end
-            if i == WaitNumber then
-                task.wait()
-                WaitNumber = WaitNumber + 5000
-            end
-        end
-    end
-    return Descendants
-end
-local function CheckIfBad(Instance)
-    if not Instance:IsDescendantOf(Players) and not PartOfCharacter(Instance) then
-        if Instance:IsA("DataModelMesh") then
-            if _G.Settings.Meshes.LowDetail then
-                sethiddenproperty(Instance, "LODX", Enum.LevelOfDetailSetting.Low)
-                sethiddenproperty(Instance, "LODY", Enum.LevelOfDetailSetting.Low)
-            elseif _G.Settings.Meshes.Destroy then
-                Instance:Destroy()
-            end
-        elseif Instance:IsA("FaceInstance") then
-            if _G.Settings.Images.Invisible then
-                Instance.Transparency = 1
-            elseif _G.Settings.Images.LowDetail then
-                Instance.Shiny = 1
-            elseif _G.Settings.Images.Destroy then
-                Instance:Destroy()
-            end
-        elseif table.find(CanBeEnabled, Instance.ClassName) then
-            if _G.Settings["No Particles"] or (_G.Settings.Other and _G.Settings.Other["No Particles"]) then
-                Instance.Enabled = false
-            end
-        elseif Instance:IsA("Explosion") then
-            if _G.Settings["No Explosions"] or (_G.Settings.Other and _G.Settings.Other["No Explosions"]) then
-                Instance.Visible = false
-            end
-        elseif Instance:IsA("Clothing") then
-            if _G.Settings["No Clothes"] or (_G.Settings.Other and _G.Settings.Other["No Clothes"]) then
-                Instance:Destroy()
-            end
-        elseif Instance:IsA("BasePart") then
-            if _G.Settings["Low Quality Parts"] or (_G.Settings.Other and _G.Settings.Other["Low Quality Parts"]) then
-                Instance.Material = Enum.Material.Plastic
-                Instance.Reflectance = 0
-            end
-        end
-    end
-end
-if _G.Settings["Low Water Graphics"] or (_G.Settings.Other and _G.Settings.Other["Low Water Graphics"]) then
-    workspace:FindFirstChildOfClass("Terrain").WaterWaveSize = 0
-    workspace:FindFirstChildOfClass("Terrain").WaterWaveSpeed = 0
-    workspace:FindFirstChildOfClass("Terrain").WaterReflectance = 0
-    workspace:FindFirstChildOfClass("Terrain").WaterTransparency = 0
-end
-if _G.Settings["No Shadows"] or (_G.Settings.Other and _G.Settings.Other["No Shadows"]) then
-    game:GetService("Lighting").GlobalShadows = false
-    game:GetService("Lighting").FogEnd = 9e9
-end
-if _G.Settings["Low Rendering"] or (_G.Settings.Other and _G.Settings.Other["Low Rendering"]) then
-    settings().Rendering.QualityLevel = 1
-end
-
-local Descendants = ReturnDescendants()
-
-for i, v in pairs(Descendants) do
-    CheckIfBad(v)
-    print("Loaded " .. i .. "/" .. #Descendants)
-    if i == WaitNumber then
-        task.wait()
-        WaitNumber = WaitNumber + 500
-    end
-end
